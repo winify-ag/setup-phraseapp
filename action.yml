@@ -1,9 +1,12 @@
-name: 'Setup Phraseapp'
+name: 'Setup Phraseapp CLI'
 description: 'Setup Phraseapp command line tool'
 inputs:
   version:
     description: 'phrase/phraseapp-client version'
     required: true
+branding:
+  icon: 'globe'
+  color: 'blue'
 runs:
   using: 'node12'
   main: 'index.js'
