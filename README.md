@@ -1,8 +1,8 @@
 # setup-phraseapp
 
 <p>
-    <a href="https://github.com/iamandrewluca/setup-phraseapp">
-        <img alt="GitHub Actions status" src="https://github.com/iamandrewluca/setup-phraseapp/workflows/test-local/badge.svg">
+    <a href="https://github.com/winify-ag/setup-phraseapp">
+        <img alt="GitHub Actions status" src="https://github.com/winify-ag/setup-phraseapp/workflows/test-local/badge.svg">
     </a>
 </p>
 
@@ -15,7 +15,7 @@ See [action.yml](action.yml)
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: iamandrewluca/setup-phraseapp@v1.0.0
+- uses: winify-ag/setup-phraseapp@v1
   with:
     version: 1.16.0
 - run: phraseapp pull

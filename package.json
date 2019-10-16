@@ -16,7 +16,9 @@
     "Actions",
     "Phraseapp"
   ],
-  "author": "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
+  "contributors": [
+    "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/winify-ag/setup-phraseapp/issues"
