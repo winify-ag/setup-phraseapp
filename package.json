@@ -1,29 +1,32 @@
 {
-  "name": "javascript-action",
+  "name": "setup-phraseapp",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Setup Phraseapp command line tool",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
-    "test": "eslint index.js && jest"
+    "test": "eslint index.js && jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/winify-ag/setup-phraseapp.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "Phraseapp"
   ],
-  "author": "GitHub",
+  "author": "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/winify-ag/setup-phraseapp/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/winify-ag/setup-phraseapp#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1"
+    "@actions/core": "^1.1.1",
+    "@actions/tool-cache": "^1.1.2",
+    "semver": "^6.3.0",
+    "typed-rest-client": "^1.5.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0",
