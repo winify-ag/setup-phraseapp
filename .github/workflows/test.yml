@@ -17,4 +17,4 @@ jobs:
     - uses: ./
       with:
         version: 2.0.12
-    - run: which phraseapp
+    - run: which phrase

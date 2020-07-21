@@ -31,7 +31,7 @@ async function run() {
       ? `phrase_${osMapper[osPlat]}_${archMapper[osArch]}.exe`
       : `phrase_${osMapper[osPlat]}_${archMapper[osArch]}`
 
-    const downloadUrl = 'https://github.com/phrase/phraseapp-cli/releases/download/' + version + '/' + fileName;
+    const downloadUrl = 'https://github.com/phrase/phrase-cli/releases/download/' + version + '/' + fileName;
     const downloadPath = await tc.downloadTool(downloadUrl);
     const toolPath = await tc.cacheFile(downloadPath, phrase, phrase, version, osArch);
 
