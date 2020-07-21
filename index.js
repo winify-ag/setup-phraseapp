@@ -16,11 +16,11 @@ const archMapper = {
 
 async function run() {
   try {
-    const phraseapp = 'phraseapp'
+    const phrase = 'phrase'
     const osPlat = os.platform();
     const osArch = os.arch();
     const version = core.getInput('version');
-    const cacheToolPath = tc.find(phraseapp, version)
+    const cacheToolPath = tc.find(phrase, version)
 
     if (cacheToolPath && cacheToolPath !== '') {
       core.addPath(cacheToolPath);
@@ -28,17 +28,17 @@ async function run() {
     }
 
     const fileName = osPlat === 'win32'
-      ? `phraseapp_${osMapper[osPlat]}_${archMapper[osArch]}.exe`
-      : `phraseapp_${osMapper[osPlat]}_${archMapper[osArch]}`
+      ? `phrase_${osMapper[osPlat]}_${archMapper[osArch]}.exe`
+      : `phrase_${osMapper[osPlat]}_${archMapper[osArch]}`
 
-    const downloadUrl = 'https://github.com/phrase/phraseapp-client/releases/download/' + version + '/' + fileName;
+    const downloadUrl = 'https://github.com/phrase/phraseapp-cli/releases/download/' + version + '/' + fileName;
     const downloadPath = await tc.downloadTool(downloadUrl);
-    const toolPath = await tc.cacheFile(downloadPath, phraseapp, phraseapp, version, osArch);
+    const toolPath = await tc.cacheFile(downloadPath, phrase, phrase, version, osArch);
 
     core.addPath(toolPath);
 
     if (osPlat !== 'win32') {
-      cp.exec(`chmod +x ${toolPath}/${phraseapp}`)
+      cp.exec(`chmod +x ${toolPath}/${phrase}`)
     }
   } catch (error) {
     core.setFailed(error);

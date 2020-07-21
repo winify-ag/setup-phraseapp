@@ -1,7 +1,7 @@
 {
   "name": "setup-phraseapp",
-  "version": "1.0.0",
-  "description": "Setup Phraseapp command line tool",
+  "version": "2.0.0",
+  "description": "Setup the Phrase CLI v2 command line tool",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
@@ -14,10 +14,12 @@
   "keywords": [
     "GitHub",
     "Actions",
-    "Phraseapp"
+    "Phraseapp",
+    "Phrase"
   ],
   "contributors": [
-    "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)"
+    "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
+    "Igor Araujo <contributor@araujoigor.com> (https://araujoigor.com)"
   ],
   "license": "MIT",
   "bugs": {
