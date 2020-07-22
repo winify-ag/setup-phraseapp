@@ -1,8 +1,8 @@
-name: 'Setup Phraseapp CLI'
-description: 'Setup Phraseapp command line tool'
+name: 'Setup Phrase CLI v2'
+description: 'Setup Phrase command line tool'
 inputs:
   version:
-    description: 'phrase/phraseapp-client version'
+    description: 'phrase/phrase-cli version'
     required: true
 branding:
   icon: 'globe'

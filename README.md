@@ -6,7 +6,7 @@
     </a>
 </p>
 
-This action sets phraseapp command line tool for API Management
+This action sets [Phrase](https://phrase.com/) command line tool for API Management
 
 # Usage
 
@@ -15,9 +15,9 @@ See [action.yml](action.yml)
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: winify-ag/setup-phraseapp@v1
+- uses: winify-ag/setup-phraseapp@v2
   with:
-    version: 1.16.0
+    version: 2.0.12
 - run: phraseapp pull
 - run: phraseapp push --wait
 ```
