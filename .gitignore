@@ -1,5 +1,4 @@
 # comment this out distribution branches
-node_modules/
 
 # Editors
 .vscode
