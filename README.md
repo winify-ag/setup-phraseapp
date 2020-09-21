@@ -22,7 +22,7 @@ steps:
 - run: phrase push --wait
 ```
 
-> If you ware using version previous version (1.16.0), you should use the `phraseapp` command instead of `phrase`
+> If you are using a previous version (1.16.0), you should use the `phraseapp` command instead of `phrase`.
 
 
 # License
