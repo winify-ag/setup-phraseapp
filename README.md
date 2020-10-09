@@ -18,9 +18,11 @@ steps:
 - uses: winify-ag/setup-phraseapp@v2
   with:
     version: 2.0.12
-- run: phraseapp pull
-- run: phraseapp push --wait
+- run: phrase pull
+- run: phrase push --wait
 ```
+
+> If you are using a previous version (1.16.0), you should use the `phraseapp` command instead of `phrase`.
 
 
 # License
