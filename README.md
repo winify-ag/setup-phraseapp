@@ -15,7 +15,7 @@ See [action.yml](action.yml)
 ```yaml
 steps:
 - uses: actions/checkout@v1
-- uses: winify-ag/setup-phraseapp@v2
+- uses: winify-ag/setup-phraseapp@v3
   with:
     version: 2.0.12
 - run: phrase pull

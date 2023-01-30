@@ -1,6 +1,6 @@
 {
   "name": "setup-phraseapp",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Setup the Phrase CLI v2 command line tool",
   "main": "index.js",
   "scripts": {
