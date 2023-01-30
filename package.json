@@ -18,7 +18,7 @@
     "Phrase"
   ],
   "contributors": [
-    "Andrew Luca <thendrluca@gmail.com> (https://iamandrewluca.com)",
+    "Andrew Luca (https://iamandrewluca.com)",
     "Igor Araujo <contributor@araujoigor.com> (https://araujoigor.com)"
   ],
   "license": "MIT",
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/winify-ag/setup-phraseapp#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/tool-cache": "^1.1.2"
+    "@actions/core": "^1.10.0",
+    "@actions/tool-cache": "^1.7.2"
   },
   "devDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^6.8.0",
     "jest": "^24.9.0"
   }
 }
