@@ -15,6 +15,12 @@ const archMapper = {
 }
 
 async function run() {
+	core.warning([
+		'This action is no longer supported.',
+		'Please consider using the official action instead.',
+		'https://github.com/phrase/setup-cli'
+	].join('\n'));
+	
   try {
     const phrase = 'phrase'
     const osPlat = os.platform();

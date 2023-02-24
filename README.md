@@ -1,10 +1,10 @@
-# setup-phraseapp
+# DEPRECATED `setup-phraseapp`
 
-<p>
-    <a href="https://github.com/winify-ag/setup-phraseapp">
-        <img alt="GitHub Actions status" src="https://github.com/winify-ag/setup-phraseapp/workflows/test-local/badge.svg">
-    </a>
-</p>
+> **Warning:**  
+> This action is no longer supported, please consider using the official [`phrase/setup-cli`](https://github.com/phrase/setup-cli) action instead.
+> Migration should be straight forward by replacing `winify-ag/setup-phraseapp@v3` action with `phrase/setup-cli@v1`
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 This action sets [Phrase](https://phrase.com/) command line tool for API Management
 
